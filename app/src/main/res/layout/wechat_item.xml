@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/im_wechat"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/wechat_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="文章来源" />
+
+            <TextView
+                android:maxLines="1"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:ellipsize="marquee"
+
+                android:id="@+id/wechat_title"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="文章标题" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="40dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    >
+    <View
+        android:layout_gravity="center"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/tv_remark"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您的快件已经到达北京"
+            />
+        <TextView
+            android:id="@+id/tv_zone"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京"
+            />
+        <TextView
+            android:id="@+id/tv_datetime"
+            android:layout_marginTop="10dp"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2012-2-3"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
