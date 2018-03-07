@@ -78,7 +78,9 @@ public class GirlFragment extends Fragment {
                 mList.add(data);
 
             }
+            //实例化适配器
             adapter=new GirlAdapter(mList,getActivity());
+            //加载适配器
             gridView.setAdapter(adapter);
 
 
@@ -94,6 +96,7 @@ public class GirlFragment extends Fragment {
 
         @Override
         protected String doInBackground(String... params) {
+            //获取服务器信息返回res
 //            String type=params[0];
             String type="35";
 
