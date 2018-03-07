@@ -38,7 +38,7 @@ import java.util.List;
  * 文件名：ButlerFragment
  * 创建者：LBW
  * 创建时间：2017/12/1811:322017
- * 描述：TODO
+ * 描述：机器人聊天界面
  */
 
 public class ButlerFragment extends Fragment implements View.OnClickListener {

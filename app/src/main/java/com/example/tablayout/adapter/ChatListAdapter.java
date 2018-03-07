@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * Created by Administrator on 2018/1/16.
- * 对话adapter
+ * 图灵机器人对话adapter
  */
 
 public class ChatListAdapter extends BaseAdapter {

@@ -34,9 +34,9 @@
     android:layout_height="wrap_content"
     android:id="@+id/mFloatingActionButton"
 
-   android:backgroundTint="@color/light_blue"
-    android:src="@mipmap/ic_launcher"
-    android:elevation="10dp"
+   android:backgroundTint="#fff"
+    android:src="@drawable/setting1"
+
     android:layout_alignParentBottom="true"
     android:layout_alignParentRight="true"
     android:layout_marginRight="10dp"
